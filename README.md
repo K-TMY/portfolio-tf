@@ -6,7 +6,7 @@ Terraformを用い、AWS上にセキュアかつ再利用可能な、Webサー�
 
 実務の経験がない知識も、自己研鑽をしていく姿勢が伝わりましたら幸いです。
 
-
+---
 
 ## 🌟 目的・学習方法
 
@@ -18,13 +18,13 @@ GitHub＋Terraformを使用し、NW構築からサーバー起動までの自動
 
 コードについては学習を優先し、検索しつつ手入力にて作成
 
-
+---
 
 ## 📋 自動構築によるインフラ構成図
 
 ![構成図](./architecture.png)
 
-
+---
 
 ## ⭕ 構築リソースのポイント
 
@@ -42,7 +42,7 @@ GitHub＋Terraformを使用し、NW構築からサーバー起動までの自動
 **【 不要ファイル・機密情報の管理 】**
 * `.gitignore` を設定し、`.terraform/` や `.tfstate` などが Git に混入しないよう管理
 
-
+---
 
 ## ⚒️ 使用技術・ツール
 
@@ -53,7 +53,7 @@ GitHub＋Terraformを使用し、NW構築からサーバー起動までの自動
 * **Management & Security :** AWS Systems Manager (SSM), IAM Role
 * **Version Control :** Git, GitHub
 
-
+---
 
 ## 📁 ディレクトリ構成
 
@@ -65,7 +65,7 @@ portfolio-tf/
 └── README.md           # 本ドキュメント
 ```
 
-
+---
 
 ## 🚀 リソースの操作手順
 
